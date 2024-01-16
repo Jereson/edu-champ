@@ -1,0 +1,40 @@
+.sub-service-heading {
+  color: goldenrod;
+  font-size: 2rem;
+  height: 20px;
+  text-align: center;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 60px;
+
+}
+
+.service-hoz-line {
+  height: 1.5px;
+  width: 70px;
+  background: goldenrod;
+  border: none;
+  margin-bottom: 40px;
+}
+
+
+/* .mySwiper {
+  width: 100%;
+} */
+
+
+
+.our-service-slider {
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+

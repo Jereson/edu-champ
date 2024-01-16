@@ -1,0 +1,58 @@
+.mobile-swiper {
+    display: none;
+  }
+
+.swiper {
+  width: 240px;
+  /* height: 320px; */
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+@media screen and (max-width: 770px) {
+  .desktop-swiper {
+    display: none;
+  }
+
+  .mobile-swiper-section {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-swiper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  .mobile-swiper-image {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .mobile-slider-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .mobile-slider-content-inner2 {
+    width: 90%;
+  }
+}
